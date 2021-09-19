@@ -5,7 +5,7 @@
     <img align="center" alt="PNG" src="https://media0.giphy.com/media/cBncDNrdxga2I/giphy.gif" />
 </p> 
 
-<h1>5HƯỚNG DẪN CHẠY BOT CHAT TRÊN CÁC NỀN TẢNG</h1>
+<h1>HƯỚNG DẪN CHẠY BOT CHAT TRÊN CÁC NỀN TẢNG</h1>
 
 > :warning: **TRƯỚC KHI CHẠY BOT CÁC BẠN PHẢI CHẤP NHẬN VIỆC ACC FACEBOOK BỊ QUÉT VÀ DIE, MỌI KHIẾU NẠI VỀ ACC FACEBOOK BÊN MÌNH KHÔNG CHỊU TRÁCH NHIỆM**
 
