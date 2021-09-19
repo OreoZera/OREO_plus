@@ -39,11 +39,11 @@ git clone https://github.com/c3cbot/c3c-fbstate.git
 **Cách cài đặt - gõ từng lệnh theo thứ tự dưới đây và đợi cài đặt**
 
 - **npm install windows-build-tools**
-- **npm install windows-build-tools**
 - **npm install** - đợi vài phút, tùy theo tốc độ mạng
 - **npm audit fix**
 - **npm start** - đợi vài phút, tùy theo tốc độ mạng
 - **Lưu Ý: Khi cài đặt xong phải tắt đi và khởi động lại để tránh gặp lỗi không mong muốn.**
+
 
 
 
