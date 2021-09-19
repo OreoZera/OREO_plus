@@ -11,7 +11,7 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "Tên tuỳ thích",
-    "PREFIX": "/", //Dấu nào tuỳ bạn, đây là dấu khi dùng lệnh
+    "PREFIX": "/",
     "ADMINBOT": [
         "ID fb acc chính"
     ],
