@@ -12,7 +12,7 @@
 **Các link github có thể sử dụng để cài Bot**
 
 - 🍪 **[OreoZera](https://github.com/OreoZera/OREO_plus)** 
-- 🍪 **[Jukie](https://github.com/D-Jukie/jukie_clean)**
+- 🍪 **[Jukie](https://github.com/D-Jukie/jukie_main)**
 - 🍪 **[Mai Huy Bảo](https://github.com/maihuybao/MiraiBypassGban)**
 - 🍪 **[Crystal](https://github.com/Crystal7826/mirai-crystal-master)**
 - 🍪 **[Klefo0](https:/github.com/Klefo0/mirai_maintain)**
