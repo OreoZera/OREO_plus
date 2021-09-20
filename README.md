@@ -34,11 +34,16 @@ git clone https://github.com/c3cbot/c3c-fbstate.git
 ```
 - Lên trang gg đăng nhập fb, dùng **công cụ cho nhà p.triển** upload file vừa git ở trên để tải **fbstate** về
 - Kéo file **fbstate.json** vừa tải vào **thư mục bot**
-- Sau đó **Click vào thanh địa chỉ đường dẫn tại đó** và gõ: **cmd** để mở Command Prompt trên máy tính của bạn
 
-**Cách cài đặt - gõ từng lệnh theo thứ tự dưới đây và đợi cài đặt**
+# Cài đặt - Gõ lệnh theo sau
+**Đầu tiên** mở **Windows PowerShell** ở quyền **Administrator**
+- Sau đó nhập:
+```diff
+npm install windows-build-tools
+```
+Đợi chạy xong phần python thì **tắt** đi
 
-- **npm install windows-build-tools**
+Vào file bot - Sau đó **Click vào thanh địa chỉ đường dẫn tại đó** và gõ: **cmd** để mở Command Prompt trên máy tính của bạn
 - **npm install** - đợi vài phút, tùy theo tốc độ mạng
 - **npm audit fix**
 - **npm start** - đợi vài phút, tùy theo tốc độ mạng
