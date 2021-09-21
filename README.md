@@ -1,5 +1,5 @@
 
-<h1> Hí ae, mình là Oreo <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h1> 
+<h1> Hí ae, tui là Oreo <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h1> 
 
 <p align="center">
 	<img alt="size" src="https://img.shields.io/github/repo-size/OreoZera/OREO_plus.svg?style=flat-square&label=size">
@@ -43,17 +43,29 @@ git clone https://github.com/c3cbot/c3c-fbstate.git
 - Kéo file **fbstate.json** vừa tải vào **thư mục bot**
 
 # Cài đặt - Gõ lệnh theo sau
-**Đầu tiên** mở **Windows PowerShell** ở quyền **Administrator**
+1. **Đầu tiên** 
+- Mở **Windows PowerShell** ở quyền **Administrator** thông qua **startMenu**
 - Sau đó nhập:
 ```diff
 npm install windows-build-tools
 ```
-Đợi chạy xong phần python thì **tắt** đi
+- Đợi chạy xong phần **python** thì **tắt** đi
 
-Vào file bot - Sau đó **Click vào thanh địa chỉ đường dẫn tại đó** và gõ: **cmd** để mở Command Prompt trên máy tính của bạn
-- **npm install** - đợi vài phút, tùy theo tốc độ mạng
-- **npm audit fix**
-- **npm start** - đợi vài phút, tùy theo tốc độ mạng
+2. **Run**
+- Vào file bot - Sau đó **Click vào thanh địa chỉ đường dẫn tại đó** và gõ: **cmd** để mở Command Prompt trên máy tính của bạn
+- Kiểm ra xem file bot có tệp **package.json** hay ko, rồi nhập:
+```diff
+npm install
+```
+- Đợi chạy xong, nhập:
+```diff
+npm audit fix
+```
+- Tận hưởng nào🥴 Nhập:
+```diff
+npm start
+```
+- Đợi nó load modules, tùy theo tốc độ mạng. **Xong!**
 - **Lưu Ý: Khi cài đặt xong phải tắt đi và khởi động lại để tránh gặp lỗi không mong muốn.**
 
 
