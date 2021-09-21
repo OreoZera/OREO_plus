@@ -35,7 +35,7 @@
 - Vào thư mục **đã giải nén** hoặc **đã git clone** ở phía trên
 - Mở thư mục **config.json** để chỉnh thông tin bot
 Ví dụ như: **name**, **prefix** và **UID** của adm...
-- Lấy **fbstate** bằng cách dùng:
+- Lấy **fbstate** bằng cách dùng **Git bash here** ngoài **desktop**
 ```diff
 git clone https://github.com/c3cbot/c3c-fbstate.git
 ```
