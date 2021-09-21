@@ -2,6 +2,13 @@
 <h1> Hí ae, mình là Oreo <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h1> 
 
 <p align="center">
+	<img alt="size" src="https://img.shields.io/github/repo-size/OreoZera/OREO_plus.svg?style=flat-square&label=size">
+	<img alt="code-version" src="https://img.shields.io/badge/dynamic/json?color=red&label=code%20version&prefix=v&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2FOreoZera%2FOREO_plus%2Fmaster%2Fpackage.json&style=flat-square">
+	<a href="https://github.com/OreoZera/OREO_plus/commits"><img alt="commits" src="https://img.shields.io/github/commit-activity/m/OreoZera/OREO_plus.svg?label=commit&style=flat-square"></a>
+    	<img alt="visitors" src="https://visitor-badge.laobi.icu/badge?page_id=OreoZera.OREO_plus">
+</p>
+
+<p align="center">
     <img align="center" alt="PNG" src="https://media0.giphy.com/media/cBncDNrdxga2I/giphy.gif" />
 </p> 
 
