@@ -58,14 +58,14 @@ users.needObject=Phải là một Object
 
 # includes/handle/handleCommand.js
 
-handleCommand.userBanned=Hiện tại bạn đang bị cấm sử dụng bot!\n%1\n%2
-handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị cấm sử dụng bot!\n%1\n%2
-handleCommand.commandNotExist=Lệnh bạn sử dụng không tồn tại, có phải là lệnh "%1" hay không?
+handleCommand.userBanned=Hiện tại bạn đang bị cấm sử dụng bot!\n\n📌Liên hệ xem xét:\nfb.me/proOreoZera\n%1\n%2
+handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị cấm sử dụng bot!\n📌Liên hệ xem xét:\nfb.me/proOreoZera\n%1\n%2
+handleCommand.commandNotExist=(\_/)\n( •..•)\n( >🧠\nU là trời.. Làm rơi nè !!\nSai định dạng, có phải là lệnh "%1" hay không?
 handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"
 handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"
-handleCommand.threadNotAllowNSFW=Nhóm của bạn không được phép sử dụng những lệnh NSFW
+handleCommand.threadNotAllowNSFW=Các lệnh nhóm NSFW đang OFF, qtv vui lòng dùng /nsfw 2 lần để ON
 handleCommand.cantGetInfoThread=Không thể lấy thông tin của nhóm, lỗi: %1
-handleCommand.permssionNotEnough=Bạn không đủ quyền hạn để có thể sử dụng lệnh "%1"
+handleCommand.permssionNotEnough=❌Quyền lồn biên giới\n\n"%1" là lệnh của adm hoặc qtv
 handleCommand.cantSetMessageReaction=Đã có lỗi xảy ra không mong muốn tại setMessageReaction, lỗi: %1
 handleCommand.notFoundLanguage=Không tìm thấy ngôn ngữ hỗ trợ cho module %1s
 handleCommand.executeCommand=[ %1 ] Lệnh sử dụng: %2 bởi người dùng: %3 tại nhóm: %4 | Args đi kèm: %5 | Thời gian xử lý: %6ms
@@ -101,4 +101,4 @@ handleSchedule.exectuteError=Đã xảy ra lỗi không mong muốn trong lúc s
 
 # utils/index.js
 
-utils.throwError=[!] Lệnh bạn đang sử dụng không đúng cú pháp, vui lòng sử dụng %1help %2 để biết thêm chi tiết cách sử dụng
+utils.throwError=[!] Lệnh bạn đang sử dụng sai cú pháp, vui lòng dùng %1help %2 để biết thêm chi tiết cách sử dụng.
