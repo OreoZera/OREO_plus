@@ -1,9 +1,9 @@
 module.exports.config = {
-    name: "adminUpdate",
-    eventType: ["log:thread-admins","log:thread-name", "log:user-nickname"],
-    version: "1.0.1",
-    credits: "Mirai Team",
-    description: "Cập nhật thông tin nhóm một cách nhanh chóng",
+	name: "adminUpdate",
+	eventType: ["log:thread-admins","log:thread-name", "log:user-nickname"],
+	version: "1.0.1",
+	credits: "Mirai Team",
+	description: "Cập nhật thông tin nhóm một cách nhanh chóng",
     envConfig: {
         autoUnsend: true,
         sendNoti: true,
@@ -40,7 +40,7 @@ module.exports.run = async function ({ event, api, Threads }) {
                 break;
             }
 
-            /*case "log:user-nickname": {
+            case "log:user-nickname": {
                 dataThread.nicknames[logMessageData.participant_id] = logMessageData.nickname;
                 if (typeof global.configModule["nickname"] != "undefined" && !global.configModule["nickname"].allowChange.includes(threadID) && !dataThread.adminIDs.some(item => item.id == event.author) || event.author == api.getCurrentUserID()) return;
                 if (global.configModule[this.config.name].sendNoti) api.sendMessage(`[ Thread Update ] Đã cập nhật biệt danh của người dùng ${logMessageData.participant_id} thành: ${(logMessageData.nickname.length == 0) ? "tên gốc": logMessageData.nickname}`, threadID, async (error, info) => {
@@ -61,7 +61,7 @@ module.exports.run = async function ({ event, api, Threads }) {
                     } else return;
                 });
                 break;
-            }*/
+            }
         }
         await setData(threadID, { threadInfo: dataThread });
     } catch (e) { console.log(e) };
