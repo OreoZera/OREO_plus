@@ -15,7 +15,6 @@
     "discord.js": "^12.5.3",
     "fast-speedtest-api": "^0.3.2",
     "fb-tools": "^2.0.1",
-    "gif-encoder-2": "^1.0.5",
     "gif-frames": "^1.0.1",
     "gifencoder": "^2.0.1",
     "node-superfetch": "^0.2.3",
