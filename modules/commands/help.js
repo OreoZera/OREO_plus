@@ -4,19 +4,19 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Hướng dẫn cho người mới",
-	commandCategory: "Danh sách lệnh",
+	commandCategory: "system",
 	usages: "[Tên module]",
-	cooldowns: 60,
+	cooldowns: 5,
 	envConfig: {
 		autoUnsend: true,
-		delayUnsend: 60
+		delayUnsend: 10
 	}
 };
 
 module.exports.languages = {
 	"vi": {
-		"moduleInfo": "🛠%1🛠\n%2\n\n👉 Cách sử dụng: %3\n👉 Thuộc nhóm: %4\n👉 Thời gian chờ: %5 giây(s)\n👉 Quyền hạn: %6\n\n🛠Không SPAM Bot🛠",
-		"helpList": '👻Số lệnh hiện có: %1👻\n✅Sử dụng: "%2help nameCommand" để xem chi tiết cách sử dụng!✅\n☠NGHIÊM CẤM SỬ DỤNG LỆNH THUỘC PHẦN ADMIN☠"',
+		"moduleInfo": "「 %1 」\n%2\n\n❯ Cách sử dụng: %3\n❯ Thuộc nhóm: %4\n❯ Thời gian chờ: %5 giây(s)\n❯ Quyền hạn: %6\n\n» Module code by %7 «",
+		"helpList": '[ Hiện tại đang có %1 lệnh có thể sử dụng trên bot này, Sử dụng: "%2help nameCommand" để xem chi tiết cách sử dụng! ]"',
 		"user": "Người dùng",
         "adminGroup": "Quản trị viên nhóm",
         "adminBot": "Quản trị viên bot"
@@ -58,7 +58,7 @@ module.exports.run = function({ api, event, args, getText }) {
 			if (!group.some(item => item.group.toLowerCase() == commandConfig.config.commandCategory.toLowerCase())) group.push({ group: commandConfig.config.commandCategory.toLowerCase(), cmds: [commandConfig.config.name] });
 			else group.find(item => item.group.toLowerCase() == commandConfig.config.commandCategory.toLowerCase()).cmds.push(commandConfig.config.name);
 		}
-		group.forEach(commandGroup => msg += `⚡️ ${commandGroup.group.charAt(0).toUpperCase() + commandGroup.group.slice(1)} ⚡️\n${commandGroup.cmds.join(', ')}\n\n`);
+		group.forEach(commandGroup => msg += `「 ${commandGroup.group.charAt(0).toUpperCase() + commandGroup.group.slice(1)} 」\n${commandGroup.cmds.join(', ')}\n\n`);
 		return api.sendMessage(msg + getText("helpList", commands.size, prefix), threadID, async (error, info) =>{
 			if (autoUnsend) {
 				await new Promise(resolve => setTimeout(resolve, delayUnsend * 1000));
