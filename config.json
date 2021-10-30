@@ -5,15 +5,18 @@
     "autoCreateDB": true,
     "allowInbox": true,
     "autoClean": false,
-    "commandDisabled": [],
+    "commandDisabled": [
+        "autorestart.js"
+    ],
     "eventDisabled": [],
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Tên tuỳ thích",
+    "BOTNAME": "𝙊𝙧𝙚𝙤",
     "PREFIX": "/",
     "ADMINBOT": [
-        "ID fb acc chính"
+        "100017608866967",
+        "100004253741257"
     ],
     "DATABASE": {
         "sqlite": {
@@ -27,6 +30,71 @@
         "pauseLog": true,
         "logLevel": "error",
         "selfListen": true,
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36"
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+    },
+    "version": "1.2.9",
+    "caesar": {
+        "caeserPassword": "266303"
+    },
+    "checktt": {
+        "maxColumn": 10
+    },
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 500
+    },
+    "hitbutt": {
+        "APIKEY": " Meew_MfRUFIUoToSfGytxFR8VqmPR3QQcON"
+    },
+    "img": {
+        "APIKEY": " Meew_MfRUFIUoToSfGytxFR8VqmPR3QQcON"
+    },
+    "work": {
+        "cooldownTime": 1200000
+    },
+    "linkword": {
+        "APIKEY": " Meew_MfRUFIUoToSfGytxFR8VqmPR3QQcON"
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "nameJP": {
+        "APIKEY": "mi451266190"
+    },
+    "rankup": {
+        "autoUnsend": true,
+        "unsendMessageAfter": 10
+    },
+    "sauce": {
+        "SAUCENAO_API": "489beb32016aba99f819736aeea9956f85e3cd0e"
+    },
+    "sim": {
+        "APIKEY": "Meew_MfRUFIUoToSfGytxFR8VqmPR3QQcON"
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyCUP6z5xhUzmlYR3OydAadUMXby5w4rwzA"
+    },
+    "surprise": {
+        "log": true,
+        "out": "",
+        "kickAll": "",
+        "delThread": ""
+    },
+    "teach": {
+        "APIKEY": "Meew_MfRUFIUoToSfGytxFR8VqmPR3QQcON"
+    },
+    "video": {
+        "YOUTUBE_API": "AIzaSyCUP6z5xhUzmlYR3OydAadUMXby5w4rwzA"
+    },
+    "weather": {
+        "OPEN_WEATHER": "68664cbfccd1ba31db138013ca11ea47"
+    },
+    "adminUpdate": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 10
+    },
+    "log": {
+        "enable": true
     }
 }
