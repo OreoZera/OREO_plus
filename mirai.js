@@ -27,7 +27,7 @@ const {
     execSync
 } = require('child_process'), 
       logger = require(_0x471479(0x29c)), 
-      login = require("@maihuybao/fca-unofficial"), //thay địa chỉ file fca tuỳ sở thích
+      login = require("helyt"), //thay địa chỉ file fca tuỳ sở thích
       axios = require(_0x471479(0x281)), 
       listPackage = JSON[_0x471479(0x1f0)](readFileSync(_0x471479(0x205)))[_0x471479(0x1e0)], listbuiltinModules = require('module')['builtinModules'];
 global['client'] = new Object({
