@@ -123,3 +123,10 @@ const app = require ("express") ();  app.get ('/', (req, res) => {res.send ("RUN
 <h1>CÁC LỖI THƯỜNG GẶP PHẢI</h1> 
 
 **UPDATE SOON...**
+# Contact and donate for me❤
+<p align="center">
+
+&nbsp; <a href="https://www.facebook.com/proOreoZera" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/facebook.png"  width="100" /></a>
+&nbsp; <a href="mailto:oreozera.pro@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="100" /></a>
+</p>
+
