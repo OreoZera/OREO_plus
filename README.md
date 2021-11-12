@@ -1,5 +1,4 @@
-
-<h1> Hí ae, tui là Oreo <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h1> 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2313EAF7&size=23&center=true&lines=Hí+mn%2C+Tui+là+Oreo!;Chúc+bạn+chạy+bot+vui+vẻ!)](https://github.com/OreoZera/Oreo_plus) 
 
 <p align="center">
 	<img alt="size" src="https://img.shields.io/github/repo-size/OreoZera/OREO_plus.svg?style=flat-square&label=size">
